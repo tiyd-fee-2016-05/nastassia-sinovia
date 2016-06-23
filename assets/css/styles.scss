@@ -1,6 +1,3 @@
-
-
-
 // Colors
 $mint: #5DDAB8;
 $red: #A51C2D;
@@ -100,3 +97,34 @@ header {
     outline:none;
   }
 // http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069
+
+
+//-------------------------
+// Section Added for New-Appt.HTML
+//-------------------------
+.header-new-appt{
+  // margin: 0 50px 0 50px;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #737373;
+  font-family: $body-font;
+  font-size: 25px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: $mint;
+}
+
+.fa-chevron-left
+{
+  margin-left: -5%;
+  color: #737373;
+
+}
+
+
+
+
+//-------------------------
+// End of New-Appt.HTML
+//-------------------------
