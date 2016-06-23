@@ -50,7 +50,7 @@ header {
     color: $dark-grey;
     font-size: 35px;
   }
-  .logo-title {
+  .logoTitle {
     margin: 15px 20px 0 20px;
     padding: 20px 0 16px 0;
     border-bottom: 2px solid $medium-grey;
@@ -71,16 +71,14 @@ header {
 
 // Search bar
 .box {
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 .container-1{
   width: 300px;
   vertical-align: middle;
   white-space: nowrap;
   position: relative;
   margin: auto;
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 .container-1 input#search{
   width: 300px;
   height: 50px;
@@ -92,44 +90,37 @@ header {
   padding-left: 45px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 .container-1 input#search::-webkit-input-placeholder {
-   color: #65737e;
-}
+   color: #65737e; }
 
 .container-1 input#search:-moz-placeholder { /* Firefox 18- */
-   color: #65737e;
-}
+   color: #65737e; }
 
 .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
-   color: #65737e;
-}
+   color: #65737e; }
 
 .container-1 input#search:-ms-input-placeholder {
-   color: #65737e;
-}
+   color: #65737e; }
 .container-1 .icon{
   position: absolute;
   top: 50%;
   margin-left: 17px;
   margin-top: 17px;
   z-index: 1;
-  color: #4f5b66;
-}
+  color: #4f5b66; }
 .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
-    outline:none;
-  }
-// http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069
+    outline:none; }
+//http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069
 
 
 // Appointments list
-.appointment-list {
+.appointmentList {
   margin: 40px 30px 10px 30px;
   position: relative;
   display: block;
   text-align: center;
-  .time-block {
+  .timeBlock {
     display: inline;
     width: 20%;
     height: 20%;
@@ -140,7 +131,7 @@ header {
     color: #FFF;
     text-align: center;
   }
-  .title-block {
+  .titleBlock {
     display: inline-block;
     width: 50%;
     height: 20%;
@@ -163,7 +154,7 @@ header {
 }
 
 // Appointments details & map
-.appointment-detail {
+.appointmentDetail {
   width: 80%;
   display: inline;
   margin: 20%;
@@ -211,7 +202,6 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
   height: 80px;
   background: $mint;
   border: none;
@@ -220,9 +210,41 @@ button {
   letter-spacing: 2px;
   color: #FFF;
   text-align: center;
-
-
-
-
-
+  outline: none;
+  .editButton {
+    width: 100%;
+  }
+  .saveButton{
+    // display: inline;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 50px;
+    width: 50%;
+  }
+  .deleteButton {
+    // display: inline;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin-left: 50%;
+    background: $red;
+  }
 }
+
+
+// --------------------------
+// footer {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   background-color: $mint;
+//   height: 70px;
+//   display: block;
+//   color: white;
+//   font-family: $body-font;
+//   font-size: 50px;
+//   text-align: center;
+//   width: 100%;
+// }
