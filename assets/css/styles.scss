@@ -31,6 +31,7 @@ body {
   margin: auto;
 }
 
+// Header
 header {
   // position: fixed;
   top: 0;
@@ -51,7 +52,7 @@ header {
   }
 }
 
-
+// Search bar
 .container-1{
   width: 300px;
   vertical-align: middle;
@@ -100,3 +101,31 @@ header {
     outline:none;
   }
 // http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069
+
+
+// Appointments list
+
+.appointment-list {
+  margin: 70px 20px 20px 20px;
+
+  .time-block {
+    width: 10%;
+    height: 10%;
+    background: $mint;
+    color: #FFF;
+  }
+  .title-block {
+    .title {
+      font-family: $body-font;
+      font-weight: 700;
+      font-size: 20px;
+      color: $dark-grey;
+    }
+    .location {
+      font-weight: 300;
+      font-style: italic;
+      font-size: 16px;
+      color: $medium-grey;
+    }
+  }
+}

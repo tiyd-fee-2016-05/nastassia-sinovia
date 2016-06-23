@@ -70,4 +70,22 @@ header {
 .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active {
   outline: none; }
 
+.appointment-list {
+  margin: 70px 20px 20px 20px; }
+  .appointment-list .time-block {
+    width: 10%;
+    height: 10%;
+    background: #5DDAB8;
+    color: #FFF; }
+  .appointment-list .title-block .title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4c4c4c; }
+  .appointment-list .title-block .location {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    color: #868686; }
+
 /*# sourceMappingURL=styles.css.map */
