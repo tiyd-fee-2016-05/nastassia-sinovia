@@ -70,7 +70,7 @@ header {
 
 // Search bar
 .box {
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 .container-1{
   width: 300px;
   vertical-align: middle;
@@ -78,7 +78,7 @@ header {
   position: relative;
   margin: auto;
   margin-top: 20px; }
-.container-1 input#search{
+.container-1 input.search{
   width: 300px;
   height: 50px;
   background: #FFF;
@@ -90,16 +90,16 @@ header {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
-.container-1 input#search::-webkit-input-placeholder {
+.container-1 input.search::-webkit-input-placeholder {
    color: #65737e; }
 
-.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+.container-1 input.search:-moz-placeholder { /* Firefox 18- */
    color: #65737e; }
 
-.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+.container-1 input.search::-moz-placeholder {  /* Firefox 19+ */
    color: #65737e; }
 
-.container-1 input#search:-ms-input-placeholder {
+.container-1 input.search:-ms-input-placeholder {
    color: #65737e; }
 .container-1 .icon{
   position: absolute;
@@ -108,9 +108,10 @@ header {
   margin-top: 17px;
   z-index: 1;
   color: #4f5b66; }
-.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+.container-1 input.search:hover, .container-1 input.search:focus, .container-1 input.search:active{
     outline:none; }
 //http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069
+
 
 
 // Appointments form

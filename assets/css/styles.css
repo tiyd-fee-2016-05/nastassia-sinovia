@@ -43,7 +43,7 @@ header {
     cursor: crosshair; }
 
 .box {
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 .container-1 {
   width: 300px;
@@ -53,7 +53,7 @@ header {
   margin: auto;
   margin-top: 20px; }
 
-.container-1 input#search {
+.container-1 input.search {
   width: 300px;
   height: 50px;
   background: #FFF;
@@ -66,18 +66,18 @@ header {
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-.container-1 input#search::-webkit-input-placeholder {
+.container-1 input.search::-webkit-input-placeholder {
   color: #65737e; }
 
-.container-1 input#search:-moz-placeholder {
+.container-1 input.search:-moz-placeholder {
   /* Firefox 18- */
   color: #65737e; }
 
-.container-1 input#search::-moz-placeholder {
+.container-1 input.search::-moz-placeholder {
   /* Firefox 19+ */
   color: #65737e; }
 
-.container-1 input#search:-ms-input-placeholder {
+.container-1 input.search:-ms-input-placeholder {
   color: #65737e; }
 
 .container-1 .icon {
@@ -88,7 +88,7 @@ header {
   z-index: 1;
   color: #4f5b66; }
 
-.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active {
+.container-1 input.search:hover, .container-1 input.search:focus, .container-1 input.search:active {
   outline: none; }
 
 .appointmentForm {
