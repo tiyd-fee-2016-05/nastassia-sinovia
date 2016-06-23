@@ -33,22 +33,39 @@ body {
 
 // Header
 header {
-  // position: fixed;
-  top: 0;
-  left: 0;
   text-align: center;
 
   .logo {
-    margin: 0 50px 0 50px;
-    padding: 20px 0 10px 0;
+    margin: 0 20px 0 20px;
+    padding: 20px 0 16px 0;
     border-bottom: 2px solid $medium-grey;
     font-family: $logo;
     font-size: 45px;
     color: $mint;
   }
   .fa-plus {
+    position: absolute;
+    top: 3.5%;
+    left: 86%;
     color: $dark-grey;
     font-size: 35px;
+  }
+  .logo-title {
+    margin: 15px 20px 0 20px;
+    padding: 20px 0 16px 0;
+    border-bottom: 2px solid $medium-grey;
+    font-family: $body-font;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: $mint;
+  }
+  .fa-chevron-left {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    color: $dark-grey;
+    font-size: 26px;
   }
 }
 
@@ -107,12 +124,11 @@ header {
 
 
 // Appointments list
-
 .appointment-list {
   margin: 40px 30px 10px 30px;
   position: relative;
   display: block;
-
+  text-align: center;
   .time-block {
     display: inline;
     width: 20%;
@@ -124,15 +140,14 @@ header {
     color: #FFF;
     text-align: center;
   }
-
   .title-block {
     display: inline-block;
-    width: 60%;
+    width: 50%;
     height: 20%;
     padding: 20px;
     background: $light-grey-bg;
     line-height: 25px;
-
+    text-align: left;
     .title {
       font-weight: 700;
       font-size: 20px;
@@ -145,4 +160,69 @@ header {
       color: $medium-grey;
     }
   }
+}
+
+// Appointments details & map
+.appointment-detail {
+  width: 80%;
+  display: inline;
+  margin: 20%;
+  font-weight: 700;
+  font-size: 30px;
+  color: $dark-grey;
+  text-align: center;
+  h1 {
+    padding: 40px;
+  }
+  span {
+    color: $mint;
+  }
+  .location {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    color: $medium-grey;
+    .fa-map-marker {
+      padding-left: 50%;
+      color: $mint;
+    }
+  }
+  img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 10%;
+  }
+  .weather {
+    // width: 75%;
+    height: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: $light-grey-bg;
+    font-weight: 300;
+    font-size: 40px;
+    color: $dark-grey;
+  }
+}
+
+
+// Buttons!
+button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: $mint;
+  border: none;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #FFF;
+  text-align: center;
+
+
+
+
+
 }
