@@ -23,7 +23,8 @@ header {
     top: 3.5%;
     left: 86%;
     color: #4c4c4c;
-    font-size: 35px; }
+    font-size: 35px;
+    cursor: crosshair; }
   header .logoTitle {
     margin: 15px 20px 0 20px;
     padding: 20px 0 16px 0;
@@ -38,7 +39,8 @@ header {
     top: 5%;
     left: 6%;
     color: #4c4c4c;
-    font-size: 26px; }
+    font-size: 26px;
+    cursor: crosshair; }
 
 .box {
   padding-bottom: 20px; }
@@ -223,5 +225,9 @@ button {
   width: 50%;
   margin-left: 50%;
   background: #A51C2D; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */

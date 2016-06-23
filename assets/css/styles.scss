@@ -1,5 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Croissant+One|Lato:300,300i,700|Share:700';
+// font-family: 'Lato', sans-serif;
+// font-family: 'Share', cursive;
+// font-family: 'Croissant One', cursive;
 
-
+$logo: 'Share', cursive;
+$body-font: 'Lato', sans-serif;
 
 // Colors
 $mint: #5DDAB8;
@@ -8,16 +13,8 @@ $dark-grey: #4c4c4c;
 $light-grey: #737373;
 $medium-grey: #868686;
 $light-grey-bg: #F5F5F5;
-
 // #808080, #7b7b7b, #868686
 
-$logo: 'Share', cursive;;
-$body-font: 'Lato', sans-serif;
-
-@import 'https://fonts.googleapis.com/css?family=Croissant+One|Lato:300,300i,700|Share:700';
-// font-family: 'Lato', sans-serif;
-// font-family: 'Share', cursive;
-// font-family: 'Croissant One', cursive;
 
 body {
   background: #FFF;
@@ -49,6 +46,7 @@ header {
     left: 86%;
     color: $dark-grey;
     font-size: 35px;
+    cursor: crosshair;
   }
   .logoTitle {
     margin: 15px 20px 0 20px;
@@ -66,6 +64,7 @@ header {
     left: 6%;
     color: $dark-grey;
     font-size: 26px;
+    cursor: crosshair;
   }
 }
 
@@ -235,8 +234,7 @@ header {
   }
 }
 
-
-// Buttons!
+// Buttons
 button {
   position: absolute;
   bottom: 0;
@@ -272,3 +270,8 @@ button {
     margin-left: 50%;
     background: $red;
   }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
