@@ -1,7 +1,7 @@
 var submitCount = 0
 
-$(".saveNew").click(function(){
-
+$(".saveNew").click(function(e){
+e.preventDefault();
 submitCount++
 
 
@@ -46,5 +46,18 @@ localStorage.setItem('appointment'+ appointmentID, JSON.stringify({
 
 $(".modal").css("display", "block");
 $(".saveNew").css("display", "none");
+
+});
+
+$(".stayOnPage").click(function(){
+  $(".modal").css("display", "none");
+  $(".saveNew").css("display", "block");
+
+$('input[id="appTitle"]').val("");
+$('input[id="appStreet"]').val("");
+$('input[id="appLocation"]').val("");
+$('input[id="appDate"]').val("");
+$('input[id="appTime"]').val("");
+
 
 });
