@@ -178,6 +178,7 @@ header {
     display: inline-block;
     width: 50%;
     height: 20%;
+    margin-bottom: 5%;
     padding: 20px;
     background: $light-grey-bg;
     border: 2px solid $light-grey-bg;
@@ -286,4 +287,40 @@ button {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+
+
+.modal {
+  // display:none;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  margin-top: 20%;
+  padding-top: 30%;
+  background: $mint;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  .stayOnPage {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: $light-grey;
+    font-size: 30px;
+  }
+  .backToIndex {
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin-left: 50%;
+    background: $dark-grey;
+    font-size: 30px;
+  }
 }
