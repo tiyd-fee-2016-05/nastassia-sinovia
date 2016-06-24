@@ -83,11 +83,29 @@ $(document).ready(function() {
 // for loop to append time/title/location('@' + )
 // stop at appointments.length
 
+// var appointments =
+
+function output(){
+
 for (i = 0; i <= appointments.length; i++) {
-  $('<p class="timeBlock">' + appointmentTime + '</p>').append(localStorage.appointments.time);
-  $('<h1 class="title">' + appointmentTitle + '</h1>').append(localStorage.appointments.title);
-  $('<h1 class="location">@' + appointmentLocation + '</h1>').append(localStorage.appointments.location);
-}
+  $('.appointmentList').append('<li><p class="timeBlock">' + appointments[1].Time + '</p><a href="details-appt.html" class="titleBlock"><h1 class="title">' + appointments[1].Title + '</h1><h1 class="location">' + appointments[1].location + '</h1></a></li>');
+}};
+//
+//   $('<p class="timeBlock">' + appointmentTime + '</p>').append(localStorage.appointments.time);
+//   $('<h1 class="title">' + appointmentTitle + '</h1>').append(localStorage.appointments.title);
+//   $('<h1 class="location">@' + appointmentLocation + '</h1>').append(localStorage.appointments.location);
+// }
+
+
+
+// function output(){
+// for (var i = 0; i < storage.length; i++){
+//   $(".appt-info-block-wrapper").append(
+//     '<a href="appt-detail.html"><div class="appt-info-wrapper" id='+[i]+'><div class="weather-block"><div class="appt-time">' + storage[i].time + '</div></div><div class="appt-block"><div class="appt-title">' + storage[i].title + '</div><div class="appt-street">' + storage[i].street + '</div><div class="appt-city">' + storage[i].city + '</div><div class="appt-date">' + storage[i].date + '</div></div></div></a>')
+//
+// };
+
+
 
 
 // for (i = 0; i < cars.length; i++) {
