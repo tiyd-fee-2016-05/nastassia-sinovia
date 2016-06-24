@@ -3,6 +3,10 @@
  * http://rmm5t.github.io/jquery-sieve/
  * Copyright (c) 2013 Ryan McGeary; Licensed MIT
  */
+
+
+
+ // Makes the search bar find characters that are typed into it
 (function() {
   var $;
 
@@ -66,16 +70,21 @@
 
 }).call(this);
 
-
+// Tells it what to sort through (the list items)
 $(document).ready(function() {
   $("ul.sieve").sieve({ itemSelector: "li" });
 });
 
 
-// $(document).ready(function() {
-//   $("table.sieve").sieve();
-// });
 
-// $(document).ready(function() {
-//   $("section.sieve").sieve({ itemSelector: "p" });
-// });
+
+
+
+// localStorage.getItem
+// JSON.parse
+
+// for loop to append time/title/location('@' + )
+
+
+// TO DELETE:
+// localStorage.removeItem('classnamehere');

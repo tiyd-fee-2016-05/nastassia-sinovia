@@ -47,6 +47,4 @@ localStorage.setItem('appointment'+ appointmentID, JSON.stringify({
 $(".modal").css("display", "block");
 $(".saveNew").css("display", "none");
 
-
-
 });
