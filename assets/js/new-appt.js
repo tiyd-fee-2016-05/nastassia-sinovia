@@ -42,10 +42,10 @@ localStorage.setItem('appointment'+ appointmentID, JSON.stringify({
     Day: appointmentDate,
     Time: appointmentTime,
 
-
 }));
 
-
+$(".modal").css("display", "block");
+$(".saveNew").css("display", "none");
 
 
 
