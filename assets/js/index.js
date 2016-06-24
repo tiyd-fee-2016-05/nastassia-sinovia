@@ -77,13 +77,24 @@ $(document).ready(function() {
 
 
 
-
-
-
 // localStorage.getItem
 // JSON.parse
 
 // for loop to append time/title/location('@' + )
+// stop at appointments.length
+
+for (i = 0; i <= appointments.length; i++) {
+  $('<p class="timeBlock">' + appointmentTime + '</p>').append(localStorage.appointments.time);
+  $('<h1 class="title">' + appointmentTitle + '</h1>').append(localStorage.appointments.title);
+  $('<h1 class="location">@' + appointmentLocation + '</h1>').append(localStorage.appointments.location);
+}
+
+
+// for (i = 0; i < cars.length; i++) {
+//     text += cars[i] + "<br>";
+// }
+
+
 
 
 // TO DELETE:
