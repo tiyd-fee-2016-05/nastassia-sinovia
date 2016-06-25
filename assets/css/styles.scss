@@ -58,6 +58,16 @@ header {
     letter-spacing: 2px;
     color: $mint;
   }
+  .detailsLogoTitle {
+    margin: 15px 20px 0 20px;
+    padding: 20px 0 16px 0;
+    border-bottom: 2px solid $medium-grey;
+    font-family: $body-font;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: $mint;
+  }
   .fa-chevron-left {
     position: absolute;
     top: 5%;
@@ -216,10 +226,10 @@ header {
   h1 {
     padding: 40px;
   }
-  span {
+  .detailsTime {
     color: $mint;
   }
-  .location {
+  .detailsLocation {
     font-weight: 300;
     font-style: italic;
     font-size: 25px;

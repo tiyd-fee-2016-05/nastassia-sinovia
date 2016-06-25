@@ -34,6 +34,15 @@ header {
     font-size: 30px;
     letter-spacing: 2px;
     color: #5DDAB8; }
+  header .detailsLogoTitle {
+    margin: 15px 20px 0 20px;
+    padding: 20px 0 16px 0;
+    border-bottom: 2px solid #868686;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #5DDAB8; }
   header .fa-chevron-left {
     position: absolute;
     top: 5%;
@@ -176,14 +185,14 @@ header {
   text-align: center; }
   .appointmentDetail h1 {
     padding: 40px; }
-  .appointmentDetail span {
+  .appointmentDetail .detailsTime {
     color: #5DDAB8; }
-  .appointmentDetail .location {
+  .appointmentDetail .detailsLocation {
     font-weight: 300;
     font-style: italic;
     font-size: 25px;
     color: #868686; }
-    .appointmentDetail .location .fa-map-marker {
+    .appointmentDetail .detailsLocation .fa-map-marker {
       padding-left: 50%;
       color: #5DDAB8; }
   .appointmentDetail img {
