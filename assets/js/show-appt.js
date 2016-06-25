@@ -73,17 +73,6 @@ $(".detailsModal").css("display", "none");
 console.log("Clicked")
 });
 
-
-
-
-
-
-
-
-
-
-
-
 });
 
 // ____________End Item 3________________________
