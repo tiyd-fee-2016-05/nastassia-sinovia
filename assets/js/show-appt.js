@@ -40,7 +40,6 @@ $(".closeDetailsModal").click(function () {
 $(".detailsModal").css("display", "none");
 console.log("Clicked")
 });
-});
 
 // ____________Loads Appointment 2 Into Modal________________________
 $(".appt2").click(function() {
@@ -57,7 +56,36 @@ $(".closeDetailsModal").click(function () {
 $(".detailsModal").css("display", "none");
 console.log("Clicked")
 });
-// });
+
+// ____________Loads Appointment 3 Into Modal________________________
+$(".appt3").click(function() {
+$(".detailsModal3").css("display", "block")
+console.log("Appt 3 click")
+
+var getAppointment3= JSON.parse(localStorage.getItem('appointment3'));
+
+  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i>' + getAppointment3.Title + '</h1>')
+  $(".appointmentDetail").append('<h1>' + getAppointment3.Day + ' at ' + '<span class="detailsTime">' + getAppointment3.Time + '</span></h1><h1 class="detailsLocation">' + getAppointment3.CityState + '<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>' + ' <img src="assets/images/map.png">' + '<h1 class="weather">' + 'Rainy, 55F' + '</h1>')
+});
+
+$(".closeDetailsModal").click(function () {
+$(".detailsModal").css("display", "none");
+console.log("Clicked")
+});
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
 // ____________End Item 3________________________
 // var getAppointment4= JSON.parse(localStorage.getItem('appointment4'));
 //
