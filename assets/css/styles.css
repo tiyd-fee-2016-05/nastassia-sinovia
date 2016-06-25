@@ -279,7 +279,7 @@ a {
     background: #4c4c4c;
     font-size: 30px; }
 
-.detailsModal {
+.detailsModal1, .detailsModal2 {
   display: none;
   z-index: 1;
   position: absolute;

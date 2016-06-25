@@ -12,7 +12,7 @@ $(".appointmentList").append(
 var getAppointment2= JSON.parse(localStorage.getItem('appointment2'));
 
 $(".appointmentList").append(
-"<li id='2'>" +"<p class='timeBlock'>" + getAppointment2.Time + '</p>' + "<a href='details-appt.html' class='titleBlock'><h1 class='title'>" + getAppointment2.Title + '</h1>' + '  <h1 class="location">' + getAppointment2.CityState+ '</h1>' + '</a>' + '</li>')
+"<li class='appt2'>" +"<p class='timeBlock'>" + getAppointment2.Time + '</p>' + "<span ='details-appt.html' class='titleBlock'><h1 class='title'>" + getAppointment2.Title + '</h1>' + '  <h1 class="location">' + getAppointment2.CityState+ '</h1>' + '</span>' + '</li>')
 
 console.log( "Loaded Appointment 2!");
 
@@ -21,16 +21,16 @@ console.log( "Loaded Appointment 2!");
 var getAppointment3= JSON.parse(localStorage.getItem('appointment3'));
 
 $(".appointmentList").append(
-"<li id='3'>" +"<p class='timeBlock'>" + getAppointment3.Time + '</p>' + "<a href='details-appt.html' class='titleBlock'><h1 class='title'>" + getAppointment3.Title + '</h1>' + '  <h1 class="location">' + getAppointment3.CityState+ '</h1>' + '</a>' + '</li>')
+"<li class='appt3'>" +"<p class='timeBlock'>" + getAppointment3.Time + '</p>' + "<span='details-appt.html' class='titleBlock'><h1 class='title'>" + getAppointment3.Title + '</h1>' + '  <h1 class="location">' + getAppointment3.CityState+ '</h1>' + '</span>' + '</li>')
 
 console.log( "Loaded Appointment 3!" );
 
 // ____________Loads Appointment 1 Into Modal________________________
 $(".appt1").click(function() {
-$(".detailsModal").css("display", "block")
+$(".detailsModal1").css("display", "block")
+console.log("Appt 1 click")
 
-
-    var getAppointment1= JSON.parse(localStorage.getItem('appointment1'));
+var getAppointment1= JSON.parse(localStorage.getItem('appointment1'));
 
   $(".detailsHeader").append('<h1 class="detailsLogoTitle"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i>' + getAppointment1.Title + '</h1>')
   $(".appointmentDetail").append('<h1>' + getAppointment1.Day + ' at ' + '<span class="detailsTime">' + getAppointment1.Time + '</span></h1><h1 class="detailsLocation">' + getAppointment1.CityState + '<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>' + ' <img src="assets/images/map.png">' + '<h1 class="weather">' + 'Rainy, 55F' + '</h1>')
@@ -40,9 +40,24 @@ $(".closeDetailsModal").click(function () {
 $(".detailsModal").css("display", "none");
 console.log("Clicked")
 });
-
 });
 
+// ____________Loads Appointment 2 Into Modal________________________
+$(".appt2").click(function() {
+$(".detailsModal2").css("display", "block")
+console.log("Appt 2 click")
+
+var getAppointment2= JSON.parse(localStorage.getItem('appointment2'));
+
+  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i>' + getAppointment2.Title + '</h1>')
+  $(".appointmentDetail").append('<h1>' + getAppointment2.Day + ' at ' + '<span class="detailsTime">' + getAppointment2.Time + '</span></h1><h1 class="detailsLocation">' + getAppointment2.CityState + '<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>' + ' <img src="assets/images/map.png">' + '<h1 class="weather">' + 'Rainy, 55F' + '</h1>')
+});
+
+$(".closeDetailsModal").click(function () {
+$(".detailsModal").css("display", "none");
+console.log("Clicked")
+});
+// });
 // ____________End Item 3________________________
 // var getAppointment4= JSON.parse(localStorage.getItem('appointment4'));
 //
