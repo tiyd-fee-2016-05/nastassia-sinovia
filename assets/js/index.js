@@ -85,11 +85,11 @@ $(document).ready(function() {
 
 // var appointments =
 
-function output(){
-
-for (i = 0; i <= appointments.length; i++) {
-  $('.appointmentList').append('<li><p class="timeBlock">' + appointments[1].Time + '</p><a href="details-appt.html" class="titleBlock"><h1 class="title">' + appointments[1].Title + '</h1><h1 class="location">' + appointments[1].location + '</h1></a></li>');
-}};
+// function output(){
+//
+// for (i = 0; i <= appointments.length; i++) {
+//   $('.appointmentList').append('<li><p class="timeBlock">' + appointments[1].Time + '</p><a href="details-appt.html" class="titleBlock"><h1 class="title">' + appointments[1].Title + '</h1><h1 class="location">' + appointments[1].location + '</h1></a></li>');
+// }};
 //
 //   $('<p class="timeBlock">' + appointmentTime + '</p>').append(localStorage.appointments.time);
 //   $('<h1 class="title">' + appointmentTitle + '</h1>').append(localStorage.appointments.title);
