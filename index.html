@@ -26,31 +26,11 @@
 
 
 <ul class="sieve appointmentList">
-    <li>
+    <!-- <li>
       <p class="timeBlock">5pm</p>
       <a href="details-appt.html" class="titleBlock"><h1 class="title">Meet w/ Ash</h1>
       <h1 class="location">@TIY Durham</h1></a>
-    </li>
-    <li>
-      <p class="timeBlock">7pm</p>
-      <a href="details-appt.html" class="titleBlock"><h1 class="title">Dinner w/ Misty</h1>
-      <h1 class="location">@Raleigh, NC</h1></a>
-    </li>
-    <li>
-      <p class="timeBlock">2pm</p>
-      <a href="details-appt.html" class="titleBlock"><h1 class="title">Talk to Brock</h1>
-      <h1 class="location">@Durham, NC</h1></a>
-    </li>
-    <li>
-      <p class="timeBlock">8pm</p>
-      <a href="details-appt.html" class="titleBlock"><h1 class="title">Meet w/ Ash</h1>
-      <h1 class="location">@Charlotte, NC</h1></a>
-    </li>
-    <li>
-      <p class="timeBlock">4pm</p>
-      <a href="details-appt.html" class="titleBlock"><h1 class="title">Lunch</h1>
-      <h1 class="location">@TIY Durham</h1></a>
-    </li>
+    </li> -->
 </ul>
 
 
@@ -95,8 +75,26 @@
  <i class="fa fa-calendar" aria-hidden="true"></i>
  <i class="fa fa-clock-o" aria-hidden="true"></i> -->
 
+ <div class="detailsModal">
+   <div id="container">
+     <header class ="detailsHeader">
+       <!-- <h1 class="detailsLogoTitle"><a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a> Meet w/ Ash</h1> -->
+     </header>
+
+     <div class="appointmentDetail">
+       <h1>Today at <span class="detailsTime">5:00pm</span></h1>
+       <h1 class="detailsLocation">TIY Durham  <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>
+
+       <img src="assets/images/map.png">
+
+       <h1 class="weather">Rainy, 55F</h1>
+     </div>
+
+     <button class="editButton" type="submit"><a href="edit-appt.html">Edit Appointment</a></button>
+
 
   </div>
+</div>
 
   <script src="assets/js/index.js" type="text/javascript"></script>
   <script src="assets/js/new-appt.js" type="text/javascript"></script>
