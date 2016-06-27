@@ -45,7 +45,6 @@ localStorage.setItem('appointment'+ appointmentID, JSON.stringify({
 }));
 });
 
-  console.log("Ummmm");
 
 $(".deleteButton").click(function(){
   $(".modal").css("display", "block");
@@ -54,6 +53,10 @@ $(".deleteButton").click(function(){
 
   // alert("Are you sure you want to delete this?");
   console.log("Delete");
+
+
+localStorage.removeItem('appointment1');
+
 });
 
 // $(".yesButton").click(function(){
