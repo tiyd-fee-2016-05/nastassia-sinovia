@@ -1,7 +1,5 @@
 ;
 (function() {
-  // Your code goes here!
-  //store our api  key
   var key = "12954939113a129b197b295ee0deb737"
 
   var daysofWeek = [
