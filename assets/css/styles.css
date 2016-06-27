@@ -244,6 +244,22 @@ button {
   margin-left: 50%;
   background: #A51C2D; }
 
+.yesButton {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background: #A51C2D; }
+
+.noButton {
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin-left: 50%;
+  background: #737373; }
+
 a {
   text-decoration: none;
   color: #fff; }

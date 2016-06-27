@@ -98,7 +98,7 @@ console.log("Appt 1 click")
 
 var getAppointment1= JSON.parse(localStorage.getItem('appointment1'));
 
-  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i>' + getAppointment1.Title + '</h1>')
+  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><a href="index.html"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i></a>' + getAppointment1.Title + '</h1>')
   $(".appointmentDetail").append('<h1>' + getAppointment1.Day + ' at ' + '<span class="detailsTime">' + getAppointment1.Time + '</span></h1><h1 class="detailsLocation">' + getAppointment1.CityState + '<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>' + ' <img src="assets/images/map.png">' + '<h1 class="weather">' + 'Rainy, 55F' + '</h1>')
 });
 
@@ -114,7 +114,7 @@ console.log("Appt 2 click")
 
 var getAppointment2= JSON.parse(localStorage.getItem('appointment2'));
 
-  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i>' + getAppointment2.Title + '</h1>')
+  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><a href="index.html"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i></a>' + getAppointment2.Title + '</h1>')
   $(".appointmentDetail").append('<h1>' + getAppointment2.Day + ' at ' + '<span class="detailsTime">' + getAppointment2.Time + '</span></h1><h1 class="detailsLocation">' + getAppointment2.CityState + '<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>' + ' <img src="assets/images/map.png">' + '<h1 class="weather">' + 'Rainy, 55F' + '</h1>')
 });
 
@@ -130,7 +130,7 @@ console.log("Appt 3 click")
 
 var getAppointment3= JSON.parse(localStorage.getItem('appointment3'));
 
-  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i>' + getAppointment3.Title + '</h1>')
+  $(".detailsHeader").append('<h1 class="detailsLogoTitle"><a href="index.html"><i class="fa fa-chevron-left closeDetailsModal" aria-hidden="true"></i></a>' + getAppointment3.Title + '</h1>')
   $(".appointmentDetail").append('<h1>' + getAppointment3.Day + ' at ' + '<span class="detailsTime">' + getAppointment3.Time + '</span></h1><h1 class="detailsLocation">' + getAppointment3.CityState + '<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1>' + ' <img src="assets/images/map.png">' + '<h1 class="weather">' + 'Rainy, 55F' + '</h1>')
 });
 
