@@ -4,83 +4,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta charset="utf-8">
     <title>Appointment App</title>
   </head>
-  <body>
-
-  <div id="container">
-    <header>
-      <h1 class="logo">Appointments <a href="new-appt.html"><i class="fa fa-plus" aria-hidden="true"></i></a></h1>
-    </header>
-
-    <!-- <div class="box">
-      <div class="container-1">
-          <span class="icon"><i class="fa fa-search"></i></span>
-          <input type="search" class="search" id="search" placeholder="Search..." />
-      </div>
-    </div> -->
+  <body ng-app="myApp">
+    <ng-view></ng-view>
 
 
-<ul class="sieve appointmentList">
-    <!-- <li>
-      <p class="timeBlock">5pm</p>
-      <a href="details-appt.html" class="titleBlock"><h1 class="title">Meet w/ Ash</h1>
-      <h1 class="location">@TIY Durham</h1></a>
-    </li> -->
-</ul>
 
-
-<!-- Details page -->
- <div class="detailsModal1">
-     <header class ="detailsHeader">
-       <!-- <h1 class="detailsLogoTitle"><a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>TITLE HERE</h1> -->
-     </header>
-
-     <div class="appointmentDetail">
-       <!-- <h1>DATE HERE at <span class="detailsTime">TIME HERE</span></h1>
-       <h1 class="detailsLocation">LOCATION HERE  <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></h1> -->
-
-       <!-- <img src="assets/images/map.png">
-
-       <h1 class="weather">Rainy, 55F</h1> -->
-     </div>
-     <button class="editButton" type="submit"><a href="edit-appt.html">Edit Appointment</a></button>
-  </div>
-
-  <div class="detailsModal2">
-      <header class ="detailsHeader">
-
-      </header>
-      <div class="appointmentDetail">
-
-      </div>
-      <button class="editButton" type="submit"><a href="edit-appt.html">Edit Appointment</a></button>
-   </div>
-
-
-   <div class="detailsModal3">
-       <header class ="detailsHeader">
-
-       </header>
-       <div class="appointmentDetail">
-
-       </div>
-       <button class="editButton" type="submit"><a href="edit-appt.html">Edit Appointment</a></button>
-    </div>
-
-  <!-- ICONS -->
-   <!--<i class="fa fa-map-marker" aria-hidden="true"></i>
-   <i class="fa fa-calendar" aria-hidden="true"></i>
-   <i class="fa fa-clock-o" aria-hidden="true"></i> -->
-
-</div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
   <script src="assets/js/index.js" type="text/javascript"></script>
   <script src="assets/js/new-appt.js" type="text/javascript"></script>
   <script src="assets/js/edit-appt.js" type="text/javascript"></script>
   <script src="assets/js/show-appt.js" type="text/javascript"></script>
+  <script src="assets/js/app.js" type="text/javascript"></script>
   </body>
 </html>
