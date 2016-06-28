@@ -293,6 +293,22 @@ button {
     margin-left: 50%;
     background: $red;
   }
+  .yesButton {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: $red;
+  }
+  .noButton {
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin-left: 50%;
+    background: $light-grey;
+  }
 
 a {
   text-decoration: none;
@@ -335,8 +351,8 @@ a {
   }
 }
 
-.detailsModal {
-  display:none;
+.detailsModal1, .detailsModal2, .detailsModal3 {
+  display: none;
   z-index: 1;
   position: absolute;
   top: 0;
